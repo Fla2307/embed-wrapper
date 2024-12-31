@@ -1,6 +1,6 @@
 const url = new URL(location.href)
 
-const roomUrl = new URL("https://<your-subdomain>.whereby.com")
+const roomUrl = new URL("https://my-digital-village-phone.whereby.com")
 roomUrl.pathname = url.pathname
 roomUrl.search = url.search
 
